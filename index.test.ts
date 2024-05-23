@@ -14,3 +14,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import { getAllCPIs, getCPI } from "./index.js";
+
+test("getCPI returns a string that represent a floating point number", () => {
+  expect(getCPI(2022, 1)).toMatch(/^\d+(\.\d+)?$/);
+});
+
+test("getAllCPIs returns all CPIs", () => {
+  const data = getAllCPIs();
+  expect(data.firstYear).toBe(1913);
+  expect(data.cpi.length).toBeGreaterThan(0);
+  expect(data.cpi[0].length).toBeGreaterThan(0);
+  expect(data.cpi[0][0]).toBe(getCPI(1913, 1));
+});
