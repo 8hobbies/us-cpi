@@ -1,14 +1,30 @@
-# cpi-us: US CPI Data
+## <!-- insert
+
+title: "cpi-us: US CPI Data in JSON Format"
+type: "\_default"
+layout: "single"
+
+---
+
+end_insert -->
+
+<!-- Powered by https://cj.rs/riss -->
+<!-- remove -->
+
+# cpi-us: US CPI Data in JSON Format
+
+<!-- end_remove -->
 
 [![npm version](https://badge.fury.io/js/cpi-us.svg)](https://badge.fury.io/js/cpi-us)
 [![Pipeline](https://github.com/8hobbies/cpi-us/actions/workflows/runtime.yml/badge.svg)](https://github.com/8hobbies/cpi-us/actions/workflows/runtime.yml)
+[![](https://img.shields.io/badge/powered%20by-riss-lightgrey)](https://cj.rs/riss)
 
 [GitHub](https://github.com/8hobbies/cpi-us) | [GitLab](https://gitlab.com/8hobbies/cpi-us)
 
 ## Install
 
 ```
-npm install --save-dev cpi-us
+npm install --save cpi-us
 ```
 
 ## Usage
@@ -43,5 +59,5 @@ limitations under the License.
 ```
 
 [GitHub]: https://github.com/8hobbies/cpi-us
-[issue tracker]: https://github.com/8hobbies/typedoc-plugin-extra-header/issues
-[pull request]: https://github.com/8hobbies/typedoc-plugin-extra-header/pulls
+[issue tracker]: https://github.com/8hobbies/cpu-us/issues
+[pull request]: https://github.com/8hobbies/cpi-us/pulls
