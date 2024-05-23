@@ -36,12 +36,13 @@ jobs:
         working-directory: website
         run: ./build-website.sh
 
-      - name: Upload site
-        uses: actions/upload-artifact@v4.3.3
+      - name: Install tar
+        run: apk add tar
+
+      - name: Upload GitHub Pages Artifact
+        uses: actions/upload-pages-artifact@v3.0.1
         with:
-          name: website
           path: website/public
-          if-no-files-found: error
 
   deploy:
     name: Deploy Pages
