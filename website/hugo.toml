@@ -1,0 +1,51 @@
+baseurl = "https://us-cpi.8credits.com"
+DefaultContentLanguage = "en"
+title = "US CPI Data in JSON Format"
+theme = "beautifulhugo"
+enableRobotsTXT = true
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+disableKinds = ['rss', 'taxonomy']
+# Not using git information here, because content/_index.md is generated on the fly and is not
+# tracked by Git.
+enableGitInfo = false
+
+[Params]
+  homeTitle = "US CPI Data in JSON Format" # Set a different text for the header on the home page
+  # subtitle = "Build a beautiful and simple website in minutes"
+  mainSections = ["post","posts"]
+  # logo = "img/avatar-icon.png" # Expecting square dimensions
+  # favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = false
+  comments = false
+  readingTime = false
+  wordCount = false
+  useHLJS = false
+  socialShare = true
+  delayDisqus = true
+  showRelatedPosts = true
+  selfHosted = true
+
+[Author]
+  # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
+  name = "8 Hobbies"
+  website = "https://www.8credits.com"
+  github = "8hobbies/us-cpi"
+  gitlab = "8hobbies/us-cpi"
+  about = "https://www.8credits.com"
+
+[minify]
+  disableCSS = false
+  disableHTML = false
+  disableJS = false
+  disableJSON = false
+  disableSVG = false
+  disableXML = false
+  minifyOutput = true
+
+[frontmatter]
+  lastmod = ['lastmod', ':fileModTime', ':default']

@@ -4,3 +4,8 @@
 /test-dir-tmp
 /test-dir/docs
 node_modules
+/website/public
+/website/content/_index.md
+.hugo_build.lock
+/website/resources
+/website/static/data.json
