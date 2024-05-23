@@ -1,4 +1,4 @@
-baseurl = "https://us-cpi.8credits.com"
+baseurl = "https://cpi-us.8credits.com"
 DefaultContentLanguage = "en"
 title = "US CPI Data in JSON Format"
 theme = "beautifulhugo"
