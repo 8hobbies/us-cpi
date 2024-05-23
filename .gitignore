@@ -1,0 +1,6 @@
+/*.tgz
+/dist
+/docs
+/test-dir-tmp
+/test-dir/docs
+node_modules

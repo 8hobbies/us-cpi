@@ -1,0 +1,54 @@
+{
+  "name": "cpi-us",
+  "version": "1.0.0",
+  "description": "US CPI historical data.",
+  "main": "dist/index.js",
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist",
+    "!/dist/**.test.d.ts",
+    "!/dist/**.test.js",
+    "!/dist/vitest.config.d.ts",
+    "!/dist/vitest.config.js"
+  ],
+  "engines": {
+    "node": "^18 || ^20 || >=22"
+  },
+  "scripts": {
+    "clean": "rimraf dist/",
+    "compile": "tsc --project tsconfig.json && tsc --project tsconfig.noemit.json",
+    "format": "eslint --fix *.ts *.mjs && prettier . --write",
+    "lint": "eslint --report-unused-disable-directives --max-warnings=0 *.ts *.mjs && prettier . --check",
+    "prepack": "npm run clean && npm run compile",
+    "test": "npm run compile && vitest --run",
+    "test-all": "npm run compile && npm run lint && npm run test && npm run doc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8hobbies/cpi-us.git"
+  },
+  "keywords": [
+    "data",
+    "economics",
+    "CPI",
+    "inflation",
+    "bls"
+  ],
+  "author": "8 Hobbies, LLC",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/8hobbies/cpu-us/issues"
+  },
+  "homepage": "https://cpi-us.8credits.com",
+  "devDependencies": {
+    "@8hobbies/eslint-conf-baseline": "^2.1.0",
+    "@types/node": "^20.12.7",
+    "globals": "^15.3.0",
+    "prettier": "^3.2.5",
+    "rimraf": "^5.0.5",
+    "tsx": "^4.11.0",
+    "typescript": "^5.4.5",
+    "vitest": "^1.5.0"
+  }
+}
