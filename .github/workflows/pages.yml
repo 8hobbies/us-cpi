@@ -23,9 +23,9 @@ on:
     branches: ["master"]
 
 jobs:
-  build_website:
+  build:
     name: Build Website
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     container: hugomods/hugo:reg-git-0.126.1
     steps:
       - uses: actions/checkout@v4
@@ -46,14 +46,14 @@ jobs:
   deploy:
     name: Deploy Pages
     if: github.ref == 'refs/heads/master'
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     permissions:
       pages: write
       id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    needs: [build, test]
+    needs: [build]
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
