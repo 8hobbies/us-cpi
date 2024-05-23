@@ -19,7 +19,7 @@ import data from "./data.json";
 
 /** Get the CPI from a given year and month. Returns undefined if unavailable. */
 export function getCPI(year: number, month: number): string | undefined {
-  return data.cpi.at(year - data.firstYear)?.at(month);
+  return data.cpi.at(year - data.firstYear)?.at(month - 1);
 }
 
 /** Get All CPI data. */
