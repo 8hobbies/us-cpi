@@ -19,10 +19,10 @@ end_insert -->
 [![Pipeline](https://github.com/8hobbies/cpi-us/actions/workflows/runtime.yml/badge.svg)](https://github.com/8hobbies/cpi-us/actions/workflows/runtime.yml)
 [![](https://img.shields.io/badge/powered%20by-riss-lightgrey)](https://cj.rs/riss)
 
-[GitHub](https://github.com/8hobbies/cpi-us) | [GitLab](https://gitlab.com/8hobbies/cpi-us)
+[Homepage](https://cpi-us.8credits.com) | [GitHub](https://github.com/8hobbies/cpi-us) | [GitLab](https://gitlab.com/8hobbies/cpi-us)
 
-US CPI Data in JSON format. It is the same as [Consumer Price Index for All Urban Consumers (CPI-U)
-provided by US Bureau of Labor Statistics](https://data.bls.gov/timeseries/CUUR0000SA0).
+US CPI Data in JSON format. It is the same as the [Consumer Price Index for All Urban Consumers
+(CPI-U) provided by US Bureau of Labor Statistics](https://data.bls.gov/timeseries/CUUR0000SA0).
 
 There are two ways to use the data:
 
