@@ -36,11 +36,11 @@ jobs:
           - os: macos-latest
             node-version: 18.x
           - os: macos-latest
-            node-version: 22.x
+            node-version: 20.x
           - os: windows-latest
             node-version: 18.x
           - os: windows-latest
-            node-version: 22.x
+            node-version: 20.x
 
     steps:
       - uses: actions/checkout@v4
