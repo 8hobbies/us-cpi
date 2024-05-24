@@ -1,4 +1,4 @@
-## <!-- insert
+<!-- insert
 
 title: "cpi-us: US CPI Data in JSON Format"
 type: "\_default"
