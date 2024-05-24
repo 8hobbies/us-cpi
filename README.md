@@ -1,9 +1,9 @@
 <!-- insert
 
+---
 title: "cpi-us: US CPI Data in JSON Format"
-type: "\_default"
+type: "_default"
 layout: "single"
-
 ---
 
 end_insert -->
