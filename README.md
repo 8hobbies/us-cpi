@@ -73,6 +73,19 @@ month of a year (January), and `month=12` refers to the last month of a year (De
 Returns all CPI values by returning the JavaScript object that results from directly loading the
 JSON file. See the "Direct Download > Format" subsection above for the data format.
 
+#### `getDateRange()`
+
+Returns the range of date of the data. Example return value:
+
+```js
+[
+  { year: 1913, month: 1 },
+  { year: 2024, month: 4 },
+];
+```
+
+meaning the data ranges from January 1913 to April 2024.
+
 ## Contributing
 
 Source code is available on [GitHub][].
