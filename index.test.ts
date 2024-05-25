@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-import { getAllCPIs, getCPI } from "./index.js";
+import { getAllCPIs, getCPI, getDateRange } from "./index.js";
 
 test("getCPI returns a string that represent a floating point number", () => {
   expect(getCPI(2022, 1)).toMatch(/^\d+(\.\d+)?$/);
@@ -27,4 +27,13 @@ test("getAllCPIs returns all CPIs", () => {
   expect(data.cpi.length).toBeGreaterThan(0);
   expect(data.cpi[0].length).toBeGreaterThan(0);
   expect(data.cpi[0][0]).toBe(getCPI(1913, 1));
+});
+
+test("getDateRange returns the range of date", () => {
+  const data = getAllCPIs();
+  const [earliest, latest] = getDateRange();
+  expect(earliest.year).toBe(1913);
+  expect(earliest.month).toBe(1);
+  expect(latest.year).toBe(data.cpi.length + earliest.year - 1);
+  expect(latest.month).toBe(data.cpi[data.cpi.length - 1].length);
 });

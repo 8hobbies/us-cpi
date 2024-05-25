@@ -17,7 +17,8 @@
 
 import data from "./data.json";
 
-/** Get the CPI from a given year and month. Returns undefined if unavailable. */
+/** Get the CPI from a given year and month. The month starts from 1. Returns undefined if
+ *  unavailable. */
 export function getCPI(year: number, month: number): string | undefined {
   return data.cpi.at(year - data.firstYear)?.at(month - 1);
 }
@@ -25,4 +26,23 @@ export function getCPI(year: number, month: number): string | undefined {
 /** Get All CPI data. */
 export function getAllCPIs(): typeof data {
   return data;
+}
+
+interface Month {
+  year: number;
+  month: number;
+}
+
+/** Get the earliest and latest dates of the available data. The month starts from 1. */
+export function getDateRange(): [Month, Month] {
+  return [
+    {
+      year: data.firstYear,
+      month: 1,
+    },
+    {
+      year: data.firstYear + data.cpi.length - 1,
+      month: data.cpi[data.cpi.length - 1].length,
+    },
+  ];
 }
