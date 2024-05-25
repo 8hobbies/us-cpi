@@ -99,22 +99,27 @@ To send your contribution, open a [pull request][].
 
 ## License
 
-```text
-Copyright 2024 8 Hobbies, LLC <hong@8hobbies.com>
+This package is licensed under [0BSD][] or [CC0-1.0][]. You may choose to comply with either when
+using this package or dataset.
 
-Licensed under the Apache License, Version 2.0(the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+    Copyright (C) 2024 8 Hobbies, LLC <hong@8hobbies.com>
 
-    http://www.apache.org/licenses/LICENSE-2.0
+    Permission to use, copy, modify, and/or distribute this software for anypurpose with or without fee
+    is hereby granted.
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-```
+    THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIESWITH REGARD TO THIS SOFTWARE
+    INCLUDING ALL IMPLIED WARRANTIES OFMERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE
+    LIABLE FORANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGESWHATSOEVER RESULTING
+    FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN ANACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS
+    ACTION, ARISING OUT OFOR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
+OR
+
+    This work is marked with CC0 1.0 Universal.
+    Visit https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt for the full text of the license.
+
+[0BSD]: https://spdx.org/licenses/0BSD.html
+[CC0-1.0]: https://spdx.org/licenses/CC0-1.0
 [GitHub]: https://github.com/8hobbies/cpi-us
 [issue tracker]: https://github.com/8hobbies/cpu-us/issues
 [pull request]: https://github.com/8hobbies/cpi-us/pulls
