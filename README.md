@@ -22,8 +22,8 @@ end_insert -->
 [Homepage](https://cpi-us.8credits.com) | [GitHub](https://github.com/8hobbies/cpi-us) | [GitLab](https://gitlab.com/8hobbies/cpi-us)
 
 US CPI Data in JSON format. It is also accessible as an [npm][] package. The data is the same as the
-[Consumer Price Index for All Urban Consumers (CPI-U) provided by US Bureau of Labor Statistics]
-(https: //data.bls.gov/timeseries/CUUR0000SA0).
+[Consumer Price Index for All Urban Consumers (CPI-U) provided by US Bureau of Labor
+Statistics](https://data.bls.gov/timeseries/CUUR0000SA0).
 
 There are two ways to use the data:
 
