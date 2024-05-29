@@ -21,8 +21,9 @@ end_insert -->
 
 [Homepage](https://cpi-us.8credits.com) | [GitHub](https://github.com/8hobbies/cpi-us) | [GitLab](https://gitlab.com/8hobbies/cpi-us)
 
-US CPI Data in JSON format. It is the same as the [Consumer Price Index for All Urban Consumers
-(CPI-U) provided by US Bureau of Labor Statistics](https://data.bls.gov/timeseries/CUUR0000SA0).
+US CPI Data in JSON format. It is also accessible as an [npm][] package. The data is the same as the
+[Consumer Price Index for All Urban Consumers (CPI-U) provided by US Bureau of Labor Statistics]
+(https: //data.bls.gov/timeseries/CUUR0000SA0).
 
 There are two ways to use the data:
 
@@ -121,6 +122,7 @@ OR
 [0BSD]: https://spdx.org/licenses/0BSD.html
 [CC0-1.0]: https://spdx.org/licenses/CC0-1.0
 [GitHub]: https://github.com/8hobbies/cpi-us
+[npm]: https://www.npmjs.com/
 [issue tracker]: https://github.com/8hobbies/cpu-us/issues
 [pull request]: https://github.com/8hobbies/cpi-us/pulls
 [npm]: https://www.npmjs.com/
