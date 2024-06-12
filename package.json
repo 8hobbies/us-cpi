@@ -1,6 +1,6 @@
 {
   "name": "cpi-us",
-  "version": "1.202405",
+  "version": "1.202405.0",
   "description": "US CPI historical data.",
   "main": "dist/index.js",
   "type": "module",
