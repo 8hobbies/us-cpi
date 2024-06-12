@@ -23,7 +23,8 @@ on:
     branches: ["master"]
 
 jobs:
-  build:
+  run:
+    name: Publish Dry Run
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4

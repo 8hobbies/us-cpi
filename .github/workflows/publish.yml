@@ -20,7 +20,8 @@ on:
   push:
     tags: ["v*"]
 jobs:
-  build:
+  run:
+    name: Publish to npmjs
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
